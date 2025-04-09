@@ -10,9 +10,9 @@ exports.handler = async (event) => {
             const key = record.s3.object.key;
             const size = record.s3.object.size;
 
-            const message = "New file uploaded to ${bucket} : \n\n" +
-                "File name: ${key} \n" +
-                "File size: ${size} bytes \n";
+            const message = `New file uploaded to ${bucket} : \n\n` +
+                `File name: ${key} \n` +
+                `File size: ${size} bytes \n`;
 
 
             await sns.publish({

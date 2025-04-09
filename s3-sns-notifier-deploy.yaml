@@ -1,5 +1,0 @@
-template-file-path: Template.json
-parameters:
-  NotificationEmail: daniel.sah@amalitech.com
-  EnvironmentName: prod
-tags: {}
