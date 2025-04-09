@@ -31,7 +31,7 @@ Resources:
     Properties:
       TopicName:
         Fn::Sub: "file-upload-notification-${EnvironmentName}"
-  NotoficationSubscription:
+  NotificationSubscription:
     Type: AWS::SNS::Subscription
     Properties:
       Protocol: email
